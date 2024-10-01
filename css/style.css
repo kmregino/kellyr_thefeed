@@ -3,6 +3,7 @@
 
 body {
     background-color: #B6C6D3;
+    max-width: 100%;
 }
 header {
     margin:auto;
@@ -39,8 +40,8 @@ nav{
     text-align: center;
     font-size: 100%;
     padding: 3%;
-    width: 50%;
-    max-width: 400px;
+    width: 25%;
+ 
     height: 115vh;
 }
 h1{
@@ -52,8 +53,8 @@ main{
     flex-direction: row;
     align-self: auto;
     justify-content: space-between;
-    margin-left: 50%;
-    max-width: 90%;
+    margin-left: 40%;
+    width: 50%;
 }
 title{
     font-family: pilsner, sans-serif;
@@ -65,6 +66,21 @@ title{
     font-size: 20pt;
     text-align: center;
 }
+#index{
+    width: 40%; 
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+#index img{
+    display: block;
+    margin: auto;
+
+
+}
+
 h3{
     font-size: 30pt;
     text-align: center;
